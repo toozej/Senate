@@ -34,7 +34,10 @@ gem 'bcrypt-ruby'
 # gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
+
+# Passenger with Apache2
+gem 'passenger'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
@@ -46,7 +49,7 @@ gem "jquery-rails"
 gem "twitter-bootstrap-rails"
 gem "exception_notification", :require => "exception_notifier"
 gem "bluecloth"
-gem "mysql2"
+gem "pg"
 gem "less-rails"
 gem 'acts-as-taggable-on'
 gem 'thin'
